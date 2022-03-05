@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="first.css">
+
+</head>
+
+<form action="first1.php"  method="POST" >
+
+    <table  cellpadding="4" width="100%"   bgcolor="#4cc9f0" align="center"
+           cellspacing="2" >
+
+        <tr >
+            <td colspan=2 >
+                <center><font size=4><b>Registration Details</b></font></center>
+            </td>
+        </tr>
+
+        <tr>
+            <td >Usn</td>
+            <td><input type=text name="usn" id="usn" size="30"></td>
+        </tr>
+
+        <tr>
+            <td>Name</td>
+            <td><input type="text" name="name" id="name"
+                       size="30"></td>
+        </tr>
+        <tr>
+            <td>DOB</td>
+            <td><input type="text" name="dob" id="dob" size="30"></td>
+        </tr>
+
+        <tr>
+            <td>Address</td>
+            <td><input type="text" name="address"
+                       id="address" size="30"></td>
+        </tr>
+
+        <tr>
+            <td>Gender</td>
+            <td><input type="radio" name="sex" value="male" size="10">Male
+                <input type="radio" name="sex" value="Female" size="10">Female</td>
+        </tr>
+
+        <tr>
+            <td>Dept id</td>
+            <td><select name="deptid">
+                    <option value="-1" selected>select..</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td>Dept name</td>
+            <td><input type="text" name="dname"
+                       id="dname" size="30"></td>
+        </tr>
+        <tr>
+            <td>Course id</td>
+            <td><select name="courseid">
+                    <option value="-1" selected>select..</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select></td>
+        </tr>
+
+        <tr>
+            <td>Course title</td>
+            <td><select name="ctitle">
+                    <option value="-1" selected>select..</option>
+                    <option value="ds">DataStructure</option>
+                    <option value="os">Operatingsystem</option>
+                    <option value="dbms">Rdbms</option>
+                    <option value="webdevelop">Webdevelopment</option>
+                </select></td>
+
+        </tr>
+
+        <tr>
+            <td>Credits:</td>
+            <td><input name="credits"></td>
+        </tr><tr>
+            <td>Internal1:</td>
+            <td><input name="int1"></td>
+        </tr><tr>
+            <td>Internal2:</td>
+            <td><input name="int2"></td>
+        </tr><tr>
+            <td>SEE:</td>
+            <td><input name="see"></td>
+        </tr><tr>
+            <td>Total:</td>
+            <td><input name="total"></td>
+        </tr><tr>
+            <td>Avg:</td>
+            <td><input name="avg"></td>
+        </tr><tr>
+            <td>AI:</td>
+            <td><input name="ai"></td>
+        </tr><tr>
+            <td>VR:</td>
+            <td><input name="vr"></td>
+        </tr><tr>
+            <td>DL:</td>
+            <td><input name="dl"></td>
+        </tr><tr>
+            <td>ML:</td>
+            <td><input name="ml"></td>
+        </tr>
+
+        <tr>
+            <td><input type="reset"></td>
+            <td colspan="2">
+                <input type="submit" value="Submit Form" name="submit">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

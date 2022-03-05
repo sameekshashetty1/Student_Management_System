@@ -1,0 +1,14 @@
+
+*:focus{
+    outline: none;
+}
+
+body{
+
+    font-family: "Rakeway", cursive ;
+
+    background-color: #003859;
+    background-size: cover;
+    padding: 50px;
+
+}

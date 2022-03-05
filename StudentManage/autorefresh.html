@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+ $(document).ready(function(){
+    setInterval(function(){
+    $("#autodata").load("display.php");
+    refresh();
+    },1000);
+    });
+    </script>
+</head>
+<body bgcolor=" #3a0ca3">
+<center>
+<div id="autodata"></div>
+</center>
+</body>
+</html>
